@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "lang": "zh",
+  "theme": "comic",
+  "mode": "light",
+  "effects": {
+    "particles": "mid",
+    "onomatopoeia": "accent",
+    "sound": false
+  },
+  "modules": {
+    "home.hero": { "visible": true, "order": 0 },
+    "home.works": { "visible": true, "order": 1 },
+    "home.projects": { "visible": true, "order": 2 },
+    "about.stats": { "visible": true, "order": 0 },
+    "about.skills": { "visible": true, "order": 1 },
+    "about.timeline": { "visible": true, "order": 2 }
+  },
+  "styles": {},
+  "home": {
+    "hero": {
+      "title": {
+        "zh": "在这里写下你的主标题",
+        "en": "Write Your Headline Here"
+      },
+      "subtitle": {
+        "zh": "广告制片人 × AIGC 创作者，用 AI 把灵感做成会动的故事。",
+        "en": "Ad Producer × AIGC Creator, turning ideas into moving stories with AI."
+      },
+      "badge": {
+        "zh": "欢迎光临！",
+        "en": "WELCOME!"
+      }
+    }
+  },
+  "works": [
+    {
+      "id": "w1",
+      "type": "video",
+      "title": { "zh": "黑猫侦探", "en": "Black Cat Detective" },
+      "year": "2026",
+      "summary": {
+        "zh": "真人电影质感的悬疑短片：雪夜的英式庄园里，一只黑猫与一个年轻人在积雪中相遇，牵出一段旧案。全片用冷蓝雪景对撞暖黄室内光，配以完整对白字幕，营造克制的悬疑氛围。",
+        "en": "A live-action-style mystery short: in a snowbound English manor, a black cat and a young man meet in the snowfall and draw out an old case. Cold blue snowscapes cut against warm interior light, with full subtitle dialogue keeping the suspense restrained."
+      },
+      "tools": [],
+      "featured": true,
+      "cover": {
+        "kind": "url",
+        "url": "./assets/uploads/black-cat-detective-cover.jpg",
+        "alt": { "zh": "黑猫侦探 剧照", "en": "Black Cat Detective still" }
+      },
+      "video": { "kind": "local", "url": "./assets/uploads/black-cat-detective.mp4" }
+    },
+    {
+      "id": "w2",
+      "type": "video",
+      "title": { "zh": "小萝卜买菜", "en": "Little Carrot Goes Shopping" },
+      "year": "2026",
+      "summary": {
+        "zh": "3D 动画短片：小名叫「小萝卜」的女孩提着竹篮出门买菜，一路问价、碰壁，最后拎着菜回到家中的饭桌前。圆润的角色造型配上古风村落与暖调打光，把一件家常小事讲得温和可亲。",
+        "en": "A 3D animated short: a girl nicknamed “Little Carrot” takes her bamboo basket to market, haggling and getting turned away along the way, then comes home with groceries for the family table. Rounded character design, an old-village setting and warm lighting make a small errand feel warm and familiar."
+      },
+      "tools": [],
+      "featured": true,
+      "cover": {
+        "kind": "url",
+        "url": "./assets/uploads/little-carrot-shopping-cover.jpg",
+        "alt": { "zh": "小萝卜买菜 剧照", "en": "Little Carrot Goes Shopping still" }
+      },
+      "video": { "kind": "local", "url": "./assets/uploads/little-carrot-shopping.mp4" }
+    },
+    {
+      "id": "w3",
+      "type": "video",
+      "title": { "zh": "士力架广告", "en": "Snickers Fantasy Ad" },
+      "year": "2026",
+      "summary": {
+        "zh": "奇幻游戏风格的恶搞广告：金发勇者带着同伴闯入龙窟，迎面而来的巨龙却被焦糖浇了个透。把「饿了就不是你自己」的品牌梗搬进游戏叙事，用反差制造笑点。",
+        "en": "A fantasy-game parody ad: a blond hero storms the dragon's lair with his sword, only to find the dragon drenched in caramel. It relocates the brand's “you're not you when you're hungry” gag into game storytelling, mining the contrast for laughs."
+      },
+      "tools": [],
+      "featured": true,
+      "cover": {
+        "kind": "url",
+        "url": "./assets/uploads/snickers-fantasy-ad-cover.jpg",
+        "alt": { "zh": "士力架广告 剧照", "en": "Snickers Fantasy Ad still" }
+      },
+      "video": { "kind": "local", "url": "./assets/uploads/snickers-fantasy-ad.mp4" }
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": { "zh": "示例项目：城市印象短片", "en": "Sample Project: City Impressions Short Film" },
+      "role": { "zh": "制片人 / AIGC 视觉", "en": "Producer / AIGC Visual" },
+      "period": "2026.01 – 2026.03",
+      "summary": {
+        "zh": "一个示例项目，讲述完整的长页 Case Study。",
+        "en": "A sample project demonstrating the full Case Study page."
+      },
+      "cover": { "kind": "none" },
+      "tools": ["Midjourney", "Kling", "After Effects"],
+      "sections": {
+        "challenge": {
+          "zh": "在低预算与短周期的双重限制下，如何产出具有电影质感的城市宣传片？",
+          "en": "How to produce a cinematic city promo film under tight budget and schedule?"
+        },
+        "solution": {
+          "zh": "采用「实拍空镜 + AIGC 风格化」的混合管线：先拍摄基础素材，再用 AI 完成风格迁移与扩帧。",
+          "en": "A hybrid pipeline: shoot base footage first, then use AI for style transfer and frame interpolation."
+        },
+        "results": {
+          "zh": "成片 90 秒，制作周期缩短 40%，客户一次性通过。",
+          "en": "A 90s final cut, 40% faster production, approved by the client in one pass."
+        },
+        "reflection": {
+          "zh": "AI 管线的关键不在工具，而在前期把分镜拆得足够细。",
+          "en": "The key to an AI pipeline is not the tools but how fine-grained the storyboard is."
+        }
+      }
+    }
+  ],
+  "about": {
+    "photo": { "kind": "none" },
+    "name": { "zh": "你的名字", "en": "Your Name" },
+    "bio": {
+      "zh": "广告制片人出身，正在 AIGC 领域持续探索。相信好的创意来自扎实的制片功底与对 AI 工具链的熟练驾驭。这里是我的作品集，也是我的动态简历。",
+      "en": "An ad producer exploring AIGC. I believe great ideas come from solid production skills and mastery of the AI toolchain. This site is my portfolio — and my living resume."
+    },
+    "skills": [
+      { "name": "Midjourney", "level": 85 },
+      { "name": "Stable Diffusion", "level": 75 },
+      { "name": "Runway / Kling", "level": 70 },
+      { "name": "影视制片", "level": 90 },
+      { "name": "剪辑 / 后期", "level": 80 },
+      { "name": "策划 / 提案", "level": 85 }
+    ],
+    "timeline": [
+      {
+        "period": "2024 – 至今",
+        "title": { "zh": "AIGC 视觉创作者", "en": "AIGC Visual Creator" },
+        "desc": { "zh": "用 AI 工具链完成品牌宣传片、概念视觉与策划提案。", "en": "Brand films, concept visuals and proposals with AI toolchains." }
+      },
+      {
+        "period": "2021 – 2024",
+        "title": { "zh": "广告制片人", "en": "Advertising Producer" },
+        "desc": { "zh": "负责多支商业广告的全流程制片管理。", "en": "Full-cycle production management for commercial ads." }
+      }
+    ],
+    "stats": [
+      { "label": { "zh": "作品", "en": "Works" }, "value": "3" },
+      { "label": { "zh": "项目", "en": "Projects" }, "value": "1" },
+      { "label": { "zh": "AI 工具", "en": "AI Tools" }, "value": "10+" }
+    ]
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "qrcode": { "kind": "none" },
+    "qrcodeLabel": { "zh": "微信联系我", "en": "WeChat Me" }
+  },
+  "assets": {}
+}
