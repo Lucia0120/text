@@ -11,7 +11,7 @@
   "modules": {
     "home.hero": { "visible": true, "order": 0 },
     "home.works": { "visible": true, "order": 1 },
-    "home.projects": { "visible": true, "order": 2 },
+    "home.projects": { "visible": false, "order": 2 },
     "about.stats": { "visible": true, "order": 0 },
     "about.skills": { "visible": true, "order": 1 },
     "about.timeline": { "visible": true, "order": 2 }
@@ -20,12 +20,12 @@
   "home": {
     "hero": {
       "title": {
-        "zh": "在这里写下你的主标题",
-        "en": "Write Your Headline Here"
+        "zh": "一个人的 AIGC 制片厂",
+        "en": "A One-Person AIGC Studio"
       },
       "subtitle": {
-        "zh": "广告制片人 × AIGC 创作者，用 AI 把灵感做成会动的故事。",
-        "en": "Ad Producer × AIGC Creator, turning ideas into moving stories with AI."
+        "zh": "刘爱 ｜ 园林设计出身，近一年专注 AIGC 内容创作——从创意策划、分镜脚本到 AI 生成与剪辑，全流程独立交付。",
+        "en": "Liu Ai ｜ From landscape design to full-time AIGC creation — independently delivering the whole pipeline, from concept and storyboard to AI generation and edit."
       },
       "badge": {
         "zh": "欢迎光临！",
@@ -89,73 +89,46 @@
       "video": { "kind": "local", "url": "./assets/uploads/snickers-fantasy-ad.mp4" }
     }
   ],
-  "projects": [
-    {
-      "id": "p1",
-      "title": { "zh": "示例项目：城市印象短片", "en": "Sample Project: City Impressions Short Film" },
-      "role": { "zh": "制片人 / AIGC 视觉", "en": "Producer / AIGC Visual" },
-      "period": "2026.01 – 2026.03",
-      "summary": {
-        "zh": "一个示例项目，讲述完整的长页 Case Study。",
-        "en": "A sample project demonstrating the full Case Study page."
-      },
-      "cover": { "kind": "none" },
-      "tools": ["Midjourney", "Kling", "After Effects"],
-      "sections": {
-        "challenge": {
-          "zh": "在低预算与短周期的双重限制下，如何产出具有电影质感的城市宣传片？",
-          "en": "How to produce a cinematic city promo film under tight budget and schedule?"
-        },
-        "solution": {
-          "zh": "采用「实拍空镜 + AIGC 风格化」的混合管线：先拍摄基础素材，再用 AI 完成风格迁移与扩帧。",
-          "en": "A hybrid pipeline: shoot base footage first, then use AI for style transfer and frame interpolation."
-        },
-        "results": {
-          "zh": "成片 90 秒，制作周期缩短 40%，客户一次性通过。",
-          "en": "A 90s final cut, 40% faster production, approved by the client in one pass."
-        },
-        "reflection": {
-          "zh": "AI 管线的关键不在工具，而在前期把分镜拆得足够细。",
-          "en": "The key to an AI pipeline is not the tools but how fine-grained the storyboard is."
-        }
-      }
-    }
-  ],
+  "projects": [],
   "about": {
     "photo": { "kind": "none" },
-    "name": { "zh": "你的名字", "en": "Your Name" },
+    "name": { "zh": "刘爱", "en": "Liu Ai" },
     "bio": {
-      "zh": "广告制片人出身，正在 AIGC 领域持续探索。相信好的创意来自扎实的制片功底与对 AI 工具链的熟练驾驭。这里是我的作品集，也是我的动态简历。",
-      "en": "An ad producer exploring AIGC. I believe great ideas come from solid production skills and mastery of the AI toolchain. This site is my portfolio — and my living resume."
+      "zh": "园林设计本科出身，近一年全力投入 AIGC 内容创作方向。擅长把抽象创意快速拆解为分镜脚本，再用 AI 工具链落地成片——已独立策划并完成 AI 漫剧《黑猫侦探》《小萝卜买菜》与士力架广告宣传片。相信好的成片不只靠工具，更靠前期的叙事节奏与视觉审美，习惯用复盘推动提示词与镜头的迭代。这里是我的作品集，也是我的动态简历。",
+      "en": "With a bachelor's in landscape design, I have spent the past year fully dedicated to AIGC content creation. I break abstract ideas into storyboards fast, then shoot them with an AI toolchain — having independently created the AI dramas “Black Cat Detective” and “Little Carrot Goes Shopping” and a Snickers ad film. A good final cut depends less on tools than on narrative rhythm and visual taste up front, so I iterate prompts and shots through retrospectives. This site is my portfolio — and my living resume."
     },
     "skills": [
-      { "name": "Midjourney", "level": 85 },
-      { "name": "Stable Diffusion", "level": 75 },
-      { "name": "Runway / Kling", "level": 70 },
-      { "name": "影视制片", "level": 90 },
-      { "name": "剪辑 / 后期", "level": 80 },
-      { "name": "策划 / 提案", "level": 85 }
+      { "name": "即梦 / 豆包", "level": 85 },
+      { "name": "Prompt 工程", "level": 85 },
+      { "name": "Seedream / Qwen-Image", "level": 80 },
+      { "name": "Seedance / Wan 3.0", "level": 78 },
+      { "name": "剪映 / AE / PS", "level": 82 },
+      { "name": "分镜 / 视听语言", "level": 80 }
     ],
     "timeline": [
       {
-        "period": "2024 – 至今",
-        "title": { "zh": "AIGC 视觉创作者", "en": "AIGC Visual Creator" },
-        "desc": { "zh": "用 AI 工具链完成品牌宣传片、概念视觉与策划提案。", "en": "Brand films, concept visuals and proposals with AI toolchains." }
+        "period": "2026.07 – 2026.10",
+        "title": { "zh": "AIGC 创意制作 · 独立创作", "en": "AIGC Creative Production · Independent" },
+        "desc": { "zh": "独立策划并完成 AI 漫剧《黑猫侦探》《小萝卜买菜》与士力架广告宣传片，打通「出图—视频生成—后期剪辑」全链路。", "en": "Independently created the AI dramas “Black Cat Detective” and “Little Carrot Goes Shopping” and a Snickers ad film, running the full chain from image generation to video and final edit." }
       },
       {
-        "period": "2021 – 2024",
-        "title": { "zh": "广告制片人", "en": "Advertising Producer" },
-        "desc": { "zh": "负责多支商业广告的全流程制片管理。", "en": "Full-cycle production management for commercial ads." }
+        "period": "2024.07 – 2025.01",
+        "title": { "zh": "金埔园林 · 资料员", "en": "Jinpu Landscape · Project Clerk" },
+        "desc": { "zh": "负责工程量计算与成本核算、供应商对接、合同与资料归档，练就结构化数据整理与跨方沟通推进能力。", "en": "Quantity take-off and cost accounting, supplier liaison, contracts and document archiving — building structured data skills and cross-party communication." }
+      },
+      {
+        "period": "2020.09 – 2024.06",
+        "title": { "zh": "南京林业大学 · 园林（本科）", "en": "Nanjing Forestry University · Landscape Architecture (BA)" },
+        "desc": { "zh": "专业制图、园林规划设计与植物学等课程，打下设计思维与视觉审美基础。", "en": "Courses in technical drawing, landscape planning and botany, laying a foundation in design thinking and visual taste." }
       }
     ],
     "stats": [
       { "label": { "zh": "作品", "en": "Works" }, "value": "3" },
-      { "label": { "zh": "项目", "en": "Projects" }, "value": "1" },
       { "label": { "zh": "AI 工具", "en": "AI Tools" }, "value": "10+" }
     ]
   },
   "contact": {
-    "email": "hello@example.com",
+    "email": "2631884177@qq.com",
     "qrcode": { "kind": "none" },
     "qrcodeLabel": { "zh": "微信联系我", "en": "WeChat Me" }
   },
