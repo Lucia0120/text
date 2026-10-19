@@ -28,8 +28,8 @@
         "en": "Liu Ai ｜ From landscape design to full-time AIGC creation — independently delivering the whole pipeline, from concept and storyboard to AI generation and edit."
       },
       "badge": {
-        "zh": "欢迎光临！",
-        "en": "WELCOME!"
+        "zh": "OPEN TO WORK",
+        "en": "OPEN TO WORK"
       }
     }
   },
@@ -91,7 +91,11 @@
   ],
   "projects": [],
   "about": {
-    "photo": { "kind": "none" },
+    "photo": {
+      "kind": "url",
+      "url": "./assets/uploads/liu-ai-photo.jpg",
+      "alt": { "zh": "刘爱 个人照片", "en": "Liu Ai portrait" }
+    },
     "name": { "zh": "刘爱", "en": "Liu Ai" },
     "bio": {
       "zh": "园林设计本科出身，近一年全力投入 AIGC 内容创作方向。擅长把抽象创意快速拆解为分镜脚本，再用 AI 工具链落地成片——已独立策划并完成 AI 漫剧《黑猫侦探》《小萝卜买菜》与士力架广告宣传片。相信好的成片不只靠工具，更靠前期的叙事节奏与视觉审美，习惯用复盘推动提示词与镜头的迭代。这里是我的作品集，也是我的动态简历。",
@@ -129,7 +133,11 @@
   },
   "contact": {
     "email": "2631884177@qq.com",
-    "qrcode": { "kind": "none" },
+    "qrcode": {
+      "kind": "url",
+      "url": "./assets/uploads/wechat-qrcode.jpg",
+      "alt": { "zh": "微信二维码", "en": "WeChat QR code" }
+    },
     "qrcodeLabel": { "zh": "微信联系我", "en": "WeChat Me" }
   },
   "assets": {}
