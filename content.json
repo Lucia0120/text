@@ -1,12 +1,12 @@
 {
-  "deployId": "83AB36789D31DC0E",
+  "deployId": "C901293FD482CC6A",
   "version": 1,
   "lang": "zh",
-  "theme": "comic",
-  "mode": "light",
+  "theme": "noir_gold",
+  "mode": "dark",
   "effects": {
-    "particles": "mid",
-    "onomatopoeia": "accent",
+    "particles": "high",
+    "onomatopoeia": "off",
     "sound": false
   },
   "modules": {
