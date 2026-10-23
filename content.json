@@ -1,5 +1,5 @@
 {
-  "deployId": "C901293FD482CC6A",
+  "deployId": "06DC73AA248D790C",
   "version": 1,
   "lang": "zh",
   "theme": "noir_gold",
@@ -97,6 +97,11 @@
       "url": "./assets/uploads/liu-ai-photo.jpg",
       "alt": { "zh": "刘爱 个人照片", "en": "Liu Ai portrait" }
     },
+    "resume": {
+      "kind": "url",
+      "url": "./assets/uploads/liu-ai-resume.docx",
+      "alt": { "zh": "刘爱 个人简历", "en": "Liu Ai resume" }
+    },
     "name": { "zh": "刘爱", "en": "Liu Ai" },
     "bio": {
       "zh": "园林设计本科出身，近一年全力投入 AIGC 内容创作方向。擅长把抽象创意快速拆解为分镜脚本，再用 AI 工具链落地成片——已独立策划并完成 AI 漫剧《黑猫侦探》《小萝卜买菜》与士力架广告宣传片。相信好的成片不只靠工具，更靠前期的叙事节奏与视觉审美，习惯用复盘推动提示词与镜头的迭代。这里是我的作品集，也是我的动态简历。",
@@ -129,7 +134,8 @@
     ],
     "stats": [
       { "label": { "zh": "作品", "en": "Works" }, "value": "3" },
-      { "label": { "zh": "AI 工具", "en": "AI Tools" }, "value": "10+" }
+      { "label": { "zh": "AI 工具", "en": "AI Tools" }, "value": "10+" },
+      { "label": { "zh": "全流程独立交付", "en": "End-to-End" }, "value": "1 人" }
     ]
   },
   "contact": {
