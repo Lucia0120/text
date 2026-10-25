@@ -1,5 +1,5 @@
 {
-  "deployId": "06DC73AA248D790C",
+  "deployId": "F3A537CCA49B81FB",
   "version": 1,
   "lang": "zh",
   "theme": "noir_gold",
@@ -88,6 +88,128 @@
         "alt": { "zh": "士力架广告 剧照", "en": "Snickers Fantasy Ad still" }
       },
       "video": { "kind": "local", "url": "./assets/uploads/snickers-fantasy-ad.mp4" }
+    },
+    {
+      "id": "w4",
+      "type": "image",
+      "title": { "zh": "IP吉祥物", "en": "IP Mascot — YOYO" },
+      "year": "2026",
+      "summary": {
+        "zh": "以「小熊猫 YOYO」为核心的 IP 全案：从三视图草稿、平面矢量到 3D 渲染，再到表情包与周边延展，形成一套可落地的角色视觉系统。",
+        "en": "A complete IP system built around YOYO the red panda: from turnaround sketches and flat vector art to 3D renders, sticker packs and merchandise applications."
+      },
+      "tools": [],
+      "featured": false,
+      "cover": {
+        "kind": "url",
+        "url": "./assets/uploads/ip-mascot-cover.webp",
+        "alt": { "zh": "小熊猫 YOYO IP 设计封面", "en": "YOYO the red panda IP design cover" }
+      },
+      "gallery": [
+        {
+          "kind": "url",
+          "url": "./assets/uploads/ip-mascot-turnaround.webp",
+          "alt": { "zh": "IP 三视图：草图、矢量与 3D 渲染", "en": "IP turnaround: sketch, vector and 3D render" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/ip-mascot-case.webp",
+          "alt": { "zh": "IP 全案设计：三视图、表情与周边", "en": "IP case design: turnaround, expressions and merchandise" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/ip-mascot-stickers.webp",
+          "alt": { "zh": "YOYO 表情包设计", "en": "YOYO sticker pack design" }
+        }
+      ]
+    },
+    {
+      "id": "w5",
+      "type": "image",
+      "title": { "zh": "UI界面", "en": "Minerva UI" },
+      "year": "2026",
+      "summary": {
+        "zh": "英语学习应用「密涅瓦 Minerva」的移动端界面设计：首页、记录、数据、我的四个核心页面，并配套吉祥物三视图。",
+        "en": "Mobile UI design for the English-learning app Minerva: four core screens — Home, Record, Data and Profile — plus the mascot turnaround."
+      },
+      "tools": [],
+      "featured": false,
+      "cover": {
+        "kind": "url",
+        "url": "./assets/uploads/ui-minerva-cover.webp",
+        "alt": { "zh": "密涅瓦 UI 界面设计封面", "en": "Minerva UI design cover" }
+      },
+      "gallery": [
+        {
+          "kind": "url",
+          "url": "./assets/uploads/ui-minerva-home.webp",
+          "alt": { "zh": "密涅瓦 UI：首页", "en": "Minerva UI: Home" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/ui-minerva-record.webp",
+          "alt": { "zh": "密涅瓦 UI：记录页", "en": "Minerva UI: Record" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/ui-minerva-data.webp",
+          "alt": { "zh": "密涅瓦 UI：数据页", "en": "Minerva UI: Data" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/ui-minerva-profile.webp",
+          "alt": { "zh": "密涅瓦 UI：我的页", "en": "Minerva UI: Profile" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/ui-minerva-ip.webp",
+          "alt": { "zh": "密涅瓦吉祥物三视图", "en": "Minerva mascot turnaround" }
+        }
+      ]
+    },
+    {
+      "id": "w6",
+      "type": "image",
+      "title": { "zh": "黑金山水插图", "en": "Black & Gold Landscapes" },
+      "year": "2026",
+      "summary": {
+        "zh": "以黑金与鎏金质感重构东方山水，五幅系列插画围绕月色、楼阁、江帆、云海与竹石展开，用克制的暖金勾边呈现静谧的夜山意境。",
+        "en": "Five oriental landscape illustrations rendered in black and gilded gold, exploring moonlight, pavilions, river sails, cloud seas and bamboo groves."
+      },
+      "tools": [],
+      "featured": false,
+      "cover": {
+        "kind": "url",
+        "url": "./assets/uploads/heijin-cover.webp",
+        "alt": { "zh": "黑金山水插图系列封面", "en": "Black & gold landscape series cover" }
+      },
+      "gallery": [
+        {
+          "kind": "url",
+          "url": "./assets/uploads/heijin-river-sail.webp",
+          "alt": { "zh": "江帆烟渚", "en": "River Sail in Mist" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/heijin-creek-bridge.webp",
+          "alt": { "zh": "溪桥竹石", "en": "Creek Bridge, Bamboo and Rock" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/heijin-distant-mountains.webp",
+          "alt": { "zh": "远山云海", "en": "Distant Mountains and Cloud Sea" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/heijin-moon-pavilion.webp",
+          "alt": { "zh": "月下楼阁", "en": "Moonlit Pavilion" }
+        },
+        {
+          "kind": "url",
+          "url": "./assets/uploads/heijin-cloud-pavilion.webp",
+          "alt": { "zh": "云亭望月", "en": "Cloud Pavilion Under the Moon" }
+        }
+      ]
     }
   ],
   "projects": [],
@@ -133,7 +255,7 @@
       }
     ],
     "stats": [
-      { "label": { "zh": "作品", "en": "Works" }, "value": "3" },
+      { "label": { "zh": "作品", "en": "Works" }, "value": "6" },
       { "label": { "zh": "AI 工具", "en": "AI Tools" }, "value": "10+" },
       { "label": { "zh": "全流程独立交付", "en": "End-to-End" }, "value": "1 人" }
     ]
