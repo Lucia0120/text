@@ -1,5 +1,5 @@
 {
-  "deployId": "ACB1F6FFE3F87810",
+  "deployId": "9353D0953DD78AE8",
   "version": 1,
   "lang": "zh",
   "theme": "noir_gold",
@@ -88,6 +88,24 @@
         "alt": { "zh": "士力架广告 剧照", "en": "Snickers Fantasy Ad still" }
       },
       "video": { "kind": "local", "url": "./assets/uploads/snickers-fantasy-ad.mp4" }
+    },
+    {
+      "id": "w7",
+      "type": "video",
+      "title": { "zh": "谷物棒创意广告", "en": "Cereal Bar Creative Ad" },
+      "year": "2026",
+      "summary": {
+        "zh": "3D卡通风格的创意广告：小松鼠粒粒辛苦囤积的松果被鸟叼走，饿到发昏时，「山野脆」谷物棒从天而降！咔嚓一口，粒粒满血复活！饿肚子的事，交给山野脆！",
+        "en": "A 3D cartoon-style creative ad: the pine nuts that little squirrel Lili painstakingly hoarded are stolen by a bird. Just as hunger is about to do her in, a “Shanye Crisp” cereal bar falls from the sky! One crunch and Lili is fully revived! When hunger strikes, leave it to Shanye Crisp!"
+      },
+      "tools": [],
+      "featured": true,
+      "cover": {
+        "kind": "url",
+        "url": "./assets/uploads/cereal-bar-ad-cover.jpg",
+        "alt": { "zh": "谷物棒创意广告 封面", "en": "Cereal Bar Creative Ad cover" }
+      },
+      "video": { "kind": "local", "url": "./assets/uploads/cereal-bar-ad.mp4" }
     },
     {
       "id": "w4",
