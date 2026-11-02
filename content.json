@@ -1,5 +1,5 @@
 {
-  "deployId": "9353D0953DD78AE8",
+  "deployId": "CE98FC68B6D61FD1",
   "version": 1,
   "lang": "zh",
   "theme": "noir_gold",
@@ -273,7 +273,7 @@
       }
     ],
     "stats": [
-      { "label": { "zh": "作品", "en": "Works" }, "value": "6" },
+      { "label": { "zh": "作品", "en": "Works" }, "value": "7" },
       { "label": { "zh": "AI 工具", "en": "AI Tools" }, "value": "10+" },
       { "label": { "zh": "全流程独立交付", "en": "End-to-End" }, "value": "1 人" }
     ]
