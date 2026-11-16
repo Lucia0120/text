@@ -1,5 +1,5 @@
 {
-  "deployId": "CE98FC68B6D61FD1",
+  "deployId": "71FED3BEF02A2335",
   "version": 1,
   "lang": "zh",
   "theme": "noir_gold",
@@ -228,6 +228,34 @@
           "alt": { "zh": "云亭望月", "en": "Cloud Pavilion Under the Moon" }
         }
       ]
+    },
+    {
+      "id": "w8",
+      "type": "video",
+      "title": { "zh": "第 1 集", "en": "Episode 1" },
+      "year": "2026",
+      "summary": {
+        "zh": "真人写实风格的系列漫剧：喜欢捡垃圾的李常青为了捡一个易拉罐，遭遇车祸，不想竟因此穿越成了星际帝国学院的垫底新生。这里，学分就是货币，而最硬的必修课是——捡垃圾！李常青：还有这好事？",
+        "en": "A photorealistic series drama: Li Changqing, a devoted trash picker, gets hit by a car while chasing a soda can — and wakes up as the worst freshman at the Imperial Interstellar Academy. Here credits are currency, and the hardest mandatory course is… picking trash. Li Changqing: “Wait, that's a perk?”"
+      },
+      "tools": [],
+      "featured": true,
+      "collection": {
+        "id": "series-interstellar-scavenger",
+        "title": { "zh": "《星际拾荒王》系列", "en": "Interstellar Scavenger King Series" },
+        "episode": 1,
+        "cover": {
+          "kind": "url",
+          "url": "./assets/uploads/interstellar-scavenger-cover-v2.jpg",
+          "alt": { "zh": "《星际拾荒王》系列 横版海报", "en": "Interstellar Scavenger King series poster" }
+        }
+      },
+      "cover": {
+        "kind": "url",
+        "url": "./assets/uploads/interstellar-scavenger-cover-v2.jpg",
+        "alt": { "zh": "《星际拾荒王》系列 横版海报", "en": "Interstellar Scavenger King series poster" }
+      },
+      "video": { "kind": "local", "url": "./assets/uploads/interstellar-scavenger-ep01.mp4" }
     }
   ],
   "projects": [],
@@ -273,7 +301,7 @@
       }
     ],
     "stats": [
-      { "label": { "zh": "作品", "en": "Works" }, "value": "7" },
+      { "label": { "zh": "作品", "en": "Works" }, "value": "8" },
       { "label": { "zh": "AI 工具", "en": "AI Tools" }, "value": "10+" },
       { "label": { "zh": "全流程独立交付", "en": "End-to-End" }, "value": "1 人" }
     ]
